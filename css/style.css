@@ -1,0 +1,529 @@
+@font-face {
+    font-family: "Austere" ;
+    src: url("../font/Austere.ttf");
+}
+
+@font-face {
+    font-family: "Noah";
+    src: url("../font/noah-bold.otf");
+}
+
+@font-face {
+    font-family: "Noah-Regular";
+    src: url("../font/noah-regular.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Austere,Noah,'Noto Sans', sans-serif;
+    outline: 0;
+}
+
+body {
+    background-color: #111111;
+}
+
+input {
+    font-family: "Noah";
+    color: #fff;
+    font-size: 16px;
+}
+
+
+/*Auth Form*/
+.auth {
+    width: 355px;
+    height: 100vh;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-form {
+    background-color: #1D1D1D;
+    color: white;
+    width: 100%;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.auth-form__title {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.auth-form__input {
+    background-color: #323235;
+    border-radius: 15px;
+    padding: 11px;
+    border: 0;
+    width: 100%;
+    font-family: Noah-Regular;
+}
+
+.auth__logo{
+    width: 189px;
+    height: 46px;
+    margin-bottom: 10px;
+}
+
+.auth-form__input:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.auth-form__btn  {
+    width: 100%;
+    background: linear-gradient(180deg, #FA7E0D 0%, #D25C15 100%);
+    color: white;
+    cursor: pointer;
+    border: 0;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+/*--------------------------------------------------------------------------*/
+
+/*---------------------------FORGOT__FORM-----------------------------------------------*/
+
+
+.forgot {
+    width: 355px;
+    height: 100vh;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.forgot-form {
+    background-color: #1D1D1D;
+    color: white;
+    width: 100%;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.forgot-form__title {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.forgot-form__text {
+    color: white;
+    text-align: start;
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    font-family: Noah-Regular;
+}
+
+.forgot-form__input {
+    background-color: #323235;
+    border-radius: 15px;
+    padding: 11px;
+    border: 0;
+    width: 100%;
+    font-family: Noah-Regular;
+}
+
+.forgot__logo{
+    width: 189px;
+    height: 46px;
+    margin-bottom: 10px;
+}
+
+.forgot-form__input:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.forgot-form__btn  {
+    width: 100%;
+    background: linear-gradient(180deg, #FA7E0D 0%, #D25C15 100%);
+    color: white;
+    cursor: pointer;
+    border: 0;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------Profile-FORM--------------------------------------------------------------------*/
+.sidebar {
+    background: #1D1D1D;
+    padding: 25px 40px;
+    height: 100vh;
+    max-width: 260px;
+    float: left;
+    position: fixed;
+}
+
+.sidebar__logo {
+    width: 128px;
+    height: 31px;
+    margin-top: 30px;
+    margin-bottom: 105px;
+}
+
+.sidebar__link {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.sidebar-link__list {
+    text-transform: none;
+    list-style-type: none;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.sidebar-link__title {
+    color: white;
+    text-decoration: none;
+    font-family: Noah-Regular;
+}
+
+.sidebar-link__title-text {
+    text-decoration: none;
+    color: #FF7A00;
+    display: flex;
+}
+
+.sidebar-link__img {
+    margin-right: 20px;
+}
+
+.sidebar-link__admin-list {
+    list-style-type: none;
+    margin-top: auto;
+}
+
+.sidebar-link__admin-list span{
+    font-family: Noah-Regular;
+}
+
+.sidebar-link__title-admin {
+    text-transform: none;
+    text-decoration: none;
+    color: #FA7E0D;
+    font-family: Noah-Regular;
+    display: flex;
+}
+
+.sidebar-link__admin-img {
+    margin-right: 10px;
+}
+.sidebar-link__admin-text {
+    color: #9494A8;
+}
+
+.profile-container {
+    padding-left: 360px;
+
+}
+
+.profile-container__title {
+    color: white;
+    padding-top: 80px;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.profile-form__info {
+    margin-left: 20px;
+}
+
+.profile-form-info__name-admin {
+    display: flex;
+    color: white;
+    font-family: Noah-Regular;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 35px;
+}
+
+.profile-form-info__rank {
+    color: #9494A8;
+    font-family: Noah-Regular;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.profile-form-info__name {
+    color: white;
+    margin-top: 40px;
+    font-family: Noah-Regular;
+    font-size: 16px;
+    line-height: 20px
+}
+
+profile-form-info__tel span{
+    font-family: Noah-Regular;
+    color: white;
+}
+
+.profile-form-info__tel {
+    color: #9A9AA2;
+    font-family: Noah-Regular;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px ;
+}
+
+.profile-form {
+    display: flex;
+}
+
+.profile-form-info__forget-pass {
+    color: #FF7A00;
+    list-style: none;
+    text-decoration: none;
+}
+
+.profile-container__exit-block {
+    display: flex;
+    float: right;
+}
+
+.profile-container__exit {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.profile-container-exit__img {
+    margin-right: 20px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*-------------------------------------------Profile-Users-FORM--------------------------------------------------------------------*/
+
+.profile-users {
+    padding-left: 330px;
+}
+
+.profile-users__control {
+    display: flex;
+    padding-top: 80px;
+}
+
+.profile-users-control__img {
+    margin-top: 10px;
+}
+
+.profile-users-control__text {
+    color: white;
+    margin-left: 20px;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.profile-users__lock {
+    display: flex;
+    float: right;
+    margin-top: 125px;
+}
+
+.profile-users-lock__img{
+    margin-right: 20px;
+}
+
+.profile-users__lock-acc {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.profile-users__block {
+    display: flex;
+    margin-top: 40px;
+}
+
+.profile-users-block__info{
+    margin-left: 20px;
+}
+
+.profile-users-block-info__name {
+    color: white;
+    font-size: 28px;
+    line-height: 35px;
+}
+
+.profile-users-block-info__rank {
+    color: #C6C6CE;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: Noah-Regular;
+}
+
+.profile-users-nav__menu{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.profile-users-nav__menu :not(:first-child){
+    margin-left: 70px;
+}
+
+.profile-users-nav__menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.profile-users-nav-menu__border-text {
+    border-bottom: 2px solid #D7772E;
+    height: 40px;
+    width: 100px;
+}
+
+.profile-users-nav-menu__border-text a {
+    color: #D7772E;
+}
+
+.profile-users__info-acc {
+    margin-top: 50px;
+}
+
+.profile-users__info-acc p {
+    color: white;
+    font-family: Noah-Regular;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.profile-users__info-acc p:not(:first-child) {
+    margin-top: 15px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------Users-Friend-----------------------------------------------------------------------------*/
+
+.users-friend {
+    padding-left: 360px;
+}
+
+.users-friend__control {
+    display: flex;
+    padding-top: 80px;
+}
+
+.users-friend-control__img {
+    margin-top: 10px;
+}
+
+.users-friend-control__text {
+    color: white;
+    margin-left: 20px;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.users-friend__lock {
+    display: flex;
+    float: right;
+    margin-top: 125px;
+}
+
+.users-friend-lock__img{
+    margin-right: 20px;
+}
+
+.users-friend__lock-acc {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.users-friend__block {
+    display: flex;
+    margin-top: 40px;
+}
+
+.users-friend__info{
+    margin-left: 20px;
+}
+
+.users-friend-info__name {
+    color: white;
+    font-size: 28px;
+    line-height: 35px;
+}
+
+.users-friend-info__rank {
+    color: #C6C6CE;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: Noah-Regular;
+}
+
+.users-friend-nav__menu{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.users-friend-nav__menu :not(:first-child){
+    margin-left: 70px;
+}
+
+.users-friend-nav__menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.users-friend-nav-menu__border-text {
+    border-bottom: 2px solid #D7772E;
+    height: 40px;
+    width: 100px;
+}
+
+.users-friend-nav-menu__border-text a {
+    color: #D7772E;
+}
+
+.users-friend__info-acc {
+    margin-top: 50px;
+}
+
+.users-friend__info-acc p {
+    color: white;
+    font-family: Noah-Regular;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.users-friend__info-acc p:not(:first-child) {
+    margin-top: 15px;
+}
