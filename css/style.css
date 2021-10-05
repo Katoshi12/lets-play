@@ -239,6 +239,8 @@ input {
     padding-top: 80px;
     font-size: 24px;
     margin-bottom: 15px;
+    font-family: Noah-Regular;
+    font-weight: 400;
 }
 
 .profile-form__info {
@@ -260,28 +262,34 @@ input {
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
+    margin-top: 10px;
 }
 
 .profile-form-info__name {
-    color: white;
+    color: #9494A8;
     margin-top: 40px;
     font-family: Noah-Regular;
     font-size: 16px;
     line-height: 20px
 }
 
-profile-form-info__tel span{
-    font-family: Noah-Regular;
+.profile-form-info__name-text{
     color: white;
+    font-family: Noah-Regular;
 }
 
 .profile-form-info__tel {
-    color: #9A9AA2;
+    color: #9494A8;
     font-family: Noah-Regular;
     font-size: 16px;
     line-height: 20px;
     margin-top: 10px;
     margin-bottom: 15px ;
+}
+
+.profile-form-info__tel-text {
+    color: white;
+    font-family: Noah-Regular;
 }
 
 .profile-form {
@@ -292,6 +300,7 @@ profile-form-info__tel span{
     color: #FF7A00;
     list-style: none;
     text-decoration: none;
+    font-family: Noah-Regular;
 }
 
 .profile-container__exit-block {
