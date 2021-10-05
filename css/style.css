@@ -284,7 +284,8 @@ input {
     font-size: 16px;
     line-height: 20px;
     margin-top: 10px;
-    margin-bottom: 15px ;
+    margin-bottom: 15px;
+    text-decoration: none;
 }
 
 .profile-form-info__tel-text {
